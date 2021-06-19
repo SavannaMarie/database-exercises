@@ -18,8 +18,11 @@ WHERE release_date < 1980;
 SELECT 'All albums released before 1880' AS 'Album Info';
 SELECT name, release_date FROM albums WHERE release_date < 1880;
 
+
+
 SELECT 'All from Michael Jackson' AS 'MJ';
 SELECT * FROM albums WHERE artist = 'Michael Jackson';
+
 UPDATE albums
 SET artist = 'Peter Jackson'
 WHERE artist = 'Michael Jackson';
